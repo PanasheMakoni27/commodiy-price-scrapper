@@ -155,7 +155,7 @@ class CommodityVisualizer:
         bars = ax.bar(commodities, values, color=['#2E8B57', '#4169E1', '#DC143C'][:len(commodities)],
                       alpha=0.8, edgecolor='black', linewidth=1.2)
         
-        # In this step, I was basically setting up clear and proffesional labels for my visual. 
+        # In this step, I was basically setting up clear and professional labels for my visual. 
         ax.set_title('Commodity Prices', fontsize=16, fontweight='bold')
         ax.set_xlabel('Commodity', fontsize=12, fontweight='bold')
         ax.set_ylabel('Price (USD per tonne)', fontsize=12, fontweight='bold')
